@@ -2,8 +2,14 @@ BuyWithDigikala (BWDK) Python SDK
 ==================================
 A Python SDK for integrating with the BuyWithDigikala (خرید با دیجی‌کالا) service.
 
-Usage:
+## Installation
+
+```bash
+pip install bwdk-sdk
 ```
+
+## Usage:
+```python
     from bwdk_sdk import BWDKClient, OrderItem, ItemOption
 
     client = BWDKClient(api_key="your_api_key_here")
